@@ -2,7 +2,7 @@
 {
     public interface IService
     {
-        string ValuePassedIn { get; set }
-        bool DoSomeWork();
+        string ValuePassedIn { get; set; }
+        string DoSomeWork();
     }
 }
