@@ -5,9 +5,16 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Common", "Demo.Common\Demo.Common.csproj", "{9F737C48-FDAF-453C-A05A-3281BC91466C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Common.UnitTests", "Demo.Common.UnitTests\Demo.Common.UnitTests.csproj", "{E6B0FD55-FB53-441F-83F5-0E0EB8966611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Common.UnitTests", "Demo.Common.UnitTests\Demo.Common.UnitTests.csproj", "{E6B0FD55-FB53-441F-83F5-0E0EB8966611}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4C744FC4-B341-422B-AE3D-57DF019042F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{81E4A974-74F4-48F0-BB3F-A8AEFE0075C1}"
+	ProjectSection(SolutionItems) = preProject
+		..\azure-pipelines.yml = ..\azure-pipelines.yml
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
