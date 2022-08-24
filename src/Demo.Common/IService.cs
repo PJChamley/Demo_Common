@@ -4,5 +4,6 @@
     {
         string ValuePassedIn { get; set; }
         string DoSomeWork();
+        string FakeMethodHere();
     }
 }
